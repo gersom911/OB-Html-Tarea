@@ -1,0 +1,17 @@
+
+p::before{
+    content:'"pasar por encima"';
+    
+}
+
+.color_boton:hover{
+    background-color: green;
+}
+
+.color_texto:hover{
+    color: white;
+}
+p::before{
+    content:'"hecho"';
+    
+}
