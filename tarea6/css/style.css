@@ -1,0 +1,12 @@
+.flex-box_container{
+    display: flexbox;
+    flex-wrap: wrap;
+
+}
+.imagen_galeria{
+   width: 300px; 
+}
+.imagen_galeria:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
