@@ -1,0 +1,49 @@
+
+.contenedor {
+    background-color: rgb(118, 92, 75);
+    
+    display: flex;
+    gap: 0.5rem;
+    
+    min-height: 5rem;
+
+    /* Eje secundario */
+  
+
+    /* flex-direction: column;*/
+
+  
+}
+
+.item {
+    background-color: salmon;
+    padding: 0.25rem;
+    width: 10rem;
+    border:1px solid #ddd
+
+  
+}
+
+.item4 {
+    background-color: salmon;
+   
+    width: 80rem;
+    border:0.25px solid #ddd
+
+  
+}
+
+.box {
+   
+    flex-grow: 0;
+}
+.box1 {
+   
+    flex-grow: 5;
+}
+@media (max-width: 640px) {
+    div .item  {
+        flex-direction: column;
+        
+    }
+}
